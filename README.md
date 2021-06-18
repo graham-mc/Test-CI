@@ -1,1 +1,3 @@
 # Test-CI
+
+trigger build
