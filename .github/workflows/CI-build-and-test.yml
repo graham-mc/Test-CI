@@ -14,11 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: Install Pods
-      run: pod install
+    # - name: Install Pods
+    #   run: pod install
 
-    # - name: Select Xcode 12
-    #   run: sudo xcode-select -switch /Applications/Xcode_12.4.app
+    - name: Select Xcode 12
+      run: sudo xcode-select -switch /Applications/Xcode_12.4.app
       
     # - name: Build and test iOS 14
     #   run: xcodebuild clean build test -workspace "Test CI.xcworkspace" -scheme "Test CI" -sdk "iphonesimulator14.4" -destination 'platform=iOS Simulator,name=iPhone 12 Pro,OS=14.4'
