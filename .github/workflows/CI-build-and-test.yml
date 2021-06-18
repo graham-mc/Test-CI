@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    # - name: Install Pods
-    #   run: pod install
+    - name: Install Pods
+      run: pod install
 
     # - name: Select Xcode 12
     #   run: sudo xcode-select -switch /Applications/Xcode_12.4.app
